@@ -1,0 +1,112 @@
+
+
+/* What is flex box?
+
+What is Z-index?
+
+what is margin?
+
+what is padding? */
+
+/* MEDIA QUERY */
+
+/* @media (min-width:800px)
+{
+    body{
+        background-color: red;
+    }
+    p{
+        color: white
+    }
+}
+@media (max-width: 600px)
+{
+body{
+    background-color: blueviolet;
+    color: cornsilk;
+}
+p{
+    font-size: large;
+    color: brown;
+}
+h1:hover{
+    font-size: 50px;
+}
+
+} */
+/* TASK: Screen size above 1000px - background = green, change font size, change picture width.
+below 500px size. */
+
+@media (max-width:1000px) and (min-width:900px){
+    body{
+        background-color: blueviolet;
+    }
+}
+
+@media (max-width: 900px) and (min-width: 800px){
+  body{
+    background-color: chartreuse;
+  }
+}
+@media (max-width:800px) and (min-width: 700px){
+
+    body{
+        background-color: darkblue;
+    }
+}
+
+/* BEFORE AND AFTER SELECTOR */
+
+h1::after{
+/* content: url('/HTML/Image/Cake.ico'); */
+content: " - I have added this text through CSS" url('/HTML/Image/Cake.ico');
+background-color: blueviolet;
+color:burlywood;
+height: 200px;
+width: 200px;
+
+}
+p::after{
+    content: "This is done through CSS"
+}
+
+h1::before{
+content: "Before Heading one - ";
+background-color: blueviolet;
+}
+
+/*
+SELECTOR
+
+tag name
+class
+ID
+
+*/
+/* CHILD ATTRIBUT */
+p span{
+    background-color: blueviolet;
+}
+/* ATTRIBUT SELECTOR */
+p[title="first"]{
+    background-color:beige;
+}
+
+/* PSUEDO SELECTORS */
+
+.first:hover{
+    background-color: red;
+   color: black;
+}
+
+/* GROUP SELECTOR */
+div, p[title="second"]  {
+    background-color: darkgoldenrod;
+}
+
+/* ID SELECTOR */
+#fourth{
+    background-color: chartreuse;
+}
+
+/* TASK: ID, Class, PSEUDO, Attribut Selector */

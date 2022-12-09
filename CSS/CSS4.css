@@ -1,0 +1,79 @@
+img{
+    width: 300px;
+    height: 300px;
+    z-index: -1;
+    position: absolute
+   
+}
+/* p{
+    z-index: 1;
+} */
+
+
+.div1{
+    background-color: rebeccapurple;
+    z-index: 1;
+    position: absolute;
+    width: 350px;
+    height: 250px;
+    text-align: right;
+}
+.div2{
+    background-color: aqua;
+    z-index: 2;
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    text-align: right;
+}
+.div3{
+    background-color: aquamarine;
+    z-index: 3;
+    position: absolute;
+
+    width: 100px;
+        height: 50px;
+}
+
+.maindiv{
+background-color: aquamarine;
+display: flex;
+justify-content:space-between;
+order: 1;
+flex-wrap: wrap;
+
+/* flex-direction:row-reverse; */
+}
+
+.divflex{
+
+background-color: blueviolet;
+width: 70px;
+height: 40px;
+margin: 0px 5px;
+}
+
+.unitparagraph{
+
+    font-size: 48px;
+}
+.secondp{
+    /* font-size: 2rem; */
+    font-size: 10vw;
+  
+}
+/*
+Task -  
+    1)Inside a <div> create six <p> elements type your name in all the <p> elements 
+    2)Give each <p> element a different id name (a,b,c,e,d,f) and then for each class 
+      or id assign one of the units from above in the CSS
+        e.g.: 5rem, 5em, 5vh, 5vw, 5px, 5%
+    3)Compare how they differ
+*/
+.bf::before {
+    content: "This is before";
+    background-color: #000000;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

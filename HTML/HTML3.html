@@ -1,0 +1,232 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!--ifram- inline frame is used to embed another document within the current HTML document, syntax below-->
+
+    <iframe
+      src="link to the video from alternate source"
+      frameborder="0"
+    ></iframe>
+    <!--Embed Youtube Video-->
+    <h1>This is a video embeded from Youtube</h1>
+    <iframe
+      src="https://www.youtube.com/embed/v7umWVfQw1c"
+      frameborder="0"
+      width="420"
+      height="315"
+      allowfullscreen
+    ></iframe>
+    <iframe
+      src="https://www.youtube.com/embed/bcisrRZ_HIs?mute=1"
+      frameborder="1"
+      width="500"
+      height="500"
+    ></iframe>
+
+    <iframe
+      src="https://www.youtube.com/embed/bcisrRZ_HIs?mute=1"
+      frameborder="0"
+      width="500"
+      height="500"
+    ></iframe>
+
+    <!-- Embed Google maps -->
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2483.0536193242892!2d-0.07733968428202212!3d51.51223227963588!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761cb3a2991b2b%3A0x7db0f0cc1b2512e5!2sJust%20IT!5e0!3m2!1sen!2suk!4v1669817371079!5m2!1sen!2suk"
+      width="600"
+      height="450"
+      style="border: 0"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+      width="300"
+      height="300"
+    ></iframe>
+
+    <br />
+    <div style="border: 3px solid; height: 460; width: fit-content">
+      <h1>Westminster Kingsway College</h1>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2482.251490100317!2d-0.1208414842814587!3d51.52694697963834!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761afcf52bfc51%3A0xc3a0c8a9dd29f751!2sWestminster%20Kingsway%20College%20-%20King&#39;s%20Cross%20Centre!5e0!3m2!1sen!2suk!4v1669817524647!5m2!1sen!2suk"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </div>
+    <br />
+    <br /><br />
+    <br /><br />
+    <br />
+    <!--Embed a PDF File -->
+    <iframe
+      src="/Image/myPDF.pdf"
+      frameborder="0"
+      height="600"
+      width="600"
+    ></iframe>
+    <br />
+    <br /><br />
+    <br /><br />
+    <h1>the Just IT website has been embeded.</h1>
+    <iframe
+      src="https://www.justit.co.uk/"
+      frameborder="0"
+      height="600"
+      width="600"
+    ></iframe>
+
+    <h1>Adding video</h1>
+    <video src="/Video/video.mp4" controls width="300px"></video>
+    <h1>thi is Audio</h1>
+    <audio src="/Video/video.mp4" width="300" controls></audio>
+
+    <!--HTML Entities - HTML Entities are case sensitive-->
+
+    <p>this is a &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;paragraph</p>
+    <p>the copy rights &copy; are reserved.</p>
+    <p>This is Register Trademark: &reg;</p>
+
+    <!--HTML Symbols-->
+    <h2>Symbols</h2>
+    <h3>these are symbols that are not availabe in the keyboard</h3>
+    <p>Delta: &#916;</p>
+    <p>Empty set: &empty;</p>
+
+    <!-- HTML Emojis-->
+    <!--Emojis looks like images or icons but they are not
+they are letters from the UTF-8 (Unicode) character set
+-->
+
+    <h2>Smile: &#128512;</h2>
+    <p>&#128513; &#128514; &#128515; &#128516; &#128517;</p>
+
+    <!-- HTML List-->
+    <!--can ordered <ol> (number) or unorders (ul) (bulleted)
+both type of list contain list items <li>    
+-->
+    <h4>Ingredients</h4>
+    <ol type="I" start="3">
+      <li>Bread &#129386;</li>
+      <li>Flower</li>
+      <li>Milk</li>
+    </ol>
+
+    <h4>Computer</h4>
+    <ul>
+      <li>Software</li>
+      <li>Hardware</li>
+    </ul>
+
+    <h4>Computer</h4>
+    <ul style="list-style-type: square">
+      <li>Software</li>
+      <li>Hardware</li>
+    </ul>
+
+    <!--TASK: List three categories: each category should have 5 items. make each category as title/heading-->
+
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <!-- HTML Table-->
+    <table border="2">
+      <tr>
+        <td>FirstName</td>
+        <td>LastName</td>
+      </tr>
+      <tr>
+        <td>Zak</td>
+        <td>PARDIS</td>
+      </tr>
+    </table>
+
+    <table border="1">
+      <tr>
+        <th>FirstNAME</th>
+        <th>LastName</th>
+        <th>DateOfBirth</th>
+        <th>Picture</th>
+      </tr>
+      <tr>
+        <td rowspan="2">Mark</td>
+        <td>Wood</td>
+        <td>1995-01-01</td>
+        <td><img src="/Image/flower.jpg" alt="" width="30" height="30" /></td>
+      </tr>
+
+      <tr>
+        <td>Wood</td>
+        <td>1995-01-01</td>
+        <td><img src="/Image/flower.jpg" alt="" width="30" height="30" /></td>
+      </tr>
+
+      <tr>
+        <td colspan="3">Mark</td>
+
+        <td><img src="/Image/flower.jpg" alt="" width="30" height="30" /></td>
+      </tr>
+    </table>
+
+    <table border="1">
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+      </tr>
+
+      <tr>
+        <td>1</td>
+        <td>Ender</td>
+      </tr>
+      <tr>
+        <td colspan="2">Full Name</td>
+      </tr>
+    </table>
+
+    <table border="1">
+      <tr>
+        <td>Name</td>
+        <td>FNAME</td>
+      </tr>
+      <tr>
+        <td>
+            <table border="1">
+                <tr>
+                  <th>ID</th>
+                  <th>Name</th>
+                </tr>
+          
+                <tr>
+                  <td>1</td>
+                  <td>Ender</td>
+                </tr>
+                <tr>
+                  <td colspan="2">Full Name</td>
+                </tr>
+
+        </td>
+      </tr>
+    </table>
+<!--   TASK: Table -->
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+  </body>
+</html>

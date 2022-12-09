@@ -1,0 +1,40 @@
+#external{
+
+    color: blueviolet;
+}
+#interal{color: blue !important;}
+.h1{color:chocolate}
+
+h2, h3, h4, h5 {color: cornflowerblue;}
+
+/* this is css file */
+
+/* COLOR IN CSS */
+
+#london{
+
+     color: blue; 
+  
+   
+}
+#rgb{ color:rgb(100, 50, 20)}
+#hsl {color: hsl(360, 50%, 50%);}
+#hsla{color: hsla(200, 40%, 20%, 0.5);}
+#hex{color: #6F2DA8;}
+
+/* TASK: Have three paragraph and change thier color: p1 rgb, p2, hexadecimal, p3 hsl */
+
+/* TASK: div and change the color of text inside of the div through the external CSS. */
+
+/* TASK: add a paragraph: TimesNew Roman font, size 30px, and make the paragraph small-caps. */
+
+
+/* FONTS IN CSS */
+#london{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-style: italic;
+    font-variant: small-caps;
+    font-display:initial;
+}
+#rgb{font: italic 20px Arial }

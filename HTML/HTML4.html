@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Semantic tags -- these are elements which descibe the job they do
+    <table> ,  <header> <nav> <footer> 
+    -->
+
+    <!-- <div> <span> -->
+    <!---
+    <div style="border: 1px dashed">Just IT Bootcamp</div>
+    <div style="border: 1px dashed">Just IT Bootcamp</div>
+
+-->
+
+    <header style="background-color: grey" align="center">
+      <h1>Just IT Bootcamp</h1>
+      <p>What is HTML - Hypertext Markup Language</p>
+    </header>
+
+    <nav style="text-align: center">
+      <a href="HTML1.html">Day1</a>
+      <a href="HTML2.html">Day2</a>
+      <a href="HTML3.html">Day3</a>
+    </nav>
+
+    <footer>
+      <h1>This is Footer</h1>
+    </footer>
+
+    <article>
+      <h1>HTML Stand for? - Article</h1>
+      <p>HTML stand for Hypertext Markup Language</p>
+    </article>
+
+    <section>
+      <header>
+        <h1>Section</h1>
+        <p>What is HTML - Hypertext Markup Language</p>
+      </header>
+    </section>
+
+    <aside class="sidebar">
+      <p>Usually the aside is used for sidebar.</p>
+    </aside>
+
+    <figure>
+      <img
+        src="/Image/download.jpg"
+        alt="This is a nature Picture"
+        title="Nature Picture"
+      />
+      <figcaption>Fig_1: This is a caption</figcaption>
+    </figure>
+    <time>15:50pm </time>
+
+    <!--HTML ID and CLASS Attributes
+
+The class attribute is often used to poin to a class name in a style sheet (CSS)
+It can also be used by the JAVA Script to access and manipulate elements with the specific Class name
+
+-->
+    <p class="pa">This is a paragraph</p>
+    <p>This is a second paragraph</p>
+
+    <!--ID is similar to the Class attribute of HTML with exception that it only specifies a unique id for an HTML element.-->
+    <h1 class="pa" id="pa2">This is heading--</h1>
+    <p class="paa">This is another paragraph</p>
+    <p id="myPar">This is another paragraph</p>
+
+    <style>
+      .pa {
+        text-align: center;
+      }
+      #myPar {
+        background-color: aqua;
+      }
+    </style>
+    <!--HTML Forms-->
+    <!---A form used the <form> tag (semantic tag)
+for each row of the HTML form two line of code are needed <lable> and <input>
+    <lable> will be the text describing the box 
+        <input> it can have multiple attributes and can be change depeding on the input type    
+-->
+    <!--Syntax-->
+    <div style="background-color: gray">
+      <h1 style="background-color: blue">Student Registration Form</h1>
+
+      <form action="login.html">
+        <label for="firstName">FirstName</label>
+        <input type="text" name="firstName" id="firstName" required />
+        <br /><br />
+        <label for="lastName">LastName</label>
+        <input type="text" name="lastName" id="lastName" /><br /><br />
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" /><br /><br />
+        <label for="dateOfBirth">DateOfBirth</label>
+        <input type="date" name="dateOfBirth" /><br /><br />
+        <label for="password">Password</label>
+        <input type="password" name="password" /> <br /><br />
+        <input type="submit" value="Save" />
+      </form>
+    </div>
+    <form action="login.html">
+      <table>
+        <tr>
+          <td colspan="2"><h1>Employee Regestration Form</h1></td>
+        </tr>
+        <tr>
+          <td>
+            <label for="firstName">FirstName</label>
+          </td>
+          <td>
+            <input
+              type="text"
+              name="firstName"
+              required
+              placeholder="Type your First Name"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="lasttName">lastName</label>
+          </td>
+          <td>
+            <input type="text" name="lastName" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="email">Email</label>
+          </td>
+          <td>
+            <input type="email" name="firstName" maxlength="5" minlength="2" />
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <label for="DOB">DOB</label>
+          </td>
+          <td>
+            <input type="date" name="DateOfBirth" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="password">Password</label>
+          </td>
+          <td>
+            <input
+              type="password"
+              name="password"
+              placeholder="type your password"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="picture">Picture</label>
+          </td>
+          <td>
+            <input type="file" name="picture" />
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2" style="align-items: center">
+            <input type="Submit" value="Save" />
+
+            <input type="reset" value="Clear" />
+          </td>
+        </tr>
+      </table>
+    </form>
+    <!--TASK: firstname, email, password and when you are clicking on a button it will open a new page for-->
+
+    <form action="login.html">
+      <input
+        type="image"
+        src="/Image/python.jpg"
+        onclick="submit()"
+        height="200"
+        width="300"
+      />
+    </form>
+
+    <br /><br /><br /><br /><br /><br />
+  </body>
+</html>
